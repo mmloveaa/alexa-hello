@@ -68,6 +68,9 @@ HelloWorld.prototype.intentHandlers = {
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
         response.ask("You can say hello to me!", "You can say hello to me!");
+    },
+    "CokeColaIntent": function (intent, session, response) {
+        response.tell("Do you have coke?");
     }
 };
 
